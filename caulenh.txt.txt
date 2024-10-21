@@ -1,0 +1,398 @@
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2
+$ git clone https://github.com/khanhtxtp/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap.git
+Cloning into 'khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2
+$ cd khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap/
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ echo "đây là file đã sửa" > README.md
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git add .
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git commit -m "thay doi file"
+[main dbc9314] thay doi file
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (1/1), done.
+Writing objects: 100% (3/3), 270 bytes | 270.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/khanhtxtp/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap.git
+   1877e76..dbc9314  main -> main
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git checkout -b "brach_nhanh1"
+Switched to a new branch 'brach_nhanh1'
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (brach_nhanh1)
+$ echo "lorem ipsum dolor sit amet , consectetur adipiscing elit." > file_brach_nhanh1.txt
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (brach_nhanh1)
+$ git add .
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (brach_nhanh1)
+$ git commit -m "tao nhanh 1"
+[brach_nhanh1 f05fa63] tao nhanh 1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file_brach_nhanh1.txt
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (brach_nhanh1)
+$ git push origin brach_nhanh1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 339 bytes | 339.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'brach_nhanh1' on GitHub by visiting:
+remote:      https://github.com/khanhtxtp/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap/pull/new/brach_nhanh1
+remote:
+To https://github.com/khanhtxtp/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap.git
+ * [new branch]      brach_nhanh1 -> brach_nhanh1
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (brach_nhanh1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git checkout -b "branch_2"
+Switched to a new branch 'branch_2'
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (branch_2)
+$ echo "praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (branch_2)
+$ git add .
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (branch_2)
+$ git commit -m "tao nhanh 2"
+[branch_2 1d12c0f] tao nhanh 2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (branch_2)
+$ git push origin branch_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 331 bytes | 331.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_2' on GitHub by visiting:
+remote:      https://github.com/khanhtxtp/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap/pull/new/branch_2
+remote:
+To https://github.com/khanhtxtp/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap.git
+ * [new branch]      branch_2 -> branch_2
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (branch_2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git checkout -b "branch_3"
+Switched to a new branch 'branch_3'
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (branch_3)
+$ echo "integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (branch_3)
+$ git add .
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (branch_3)
+$ git commit -m "tao nhanh 3"
+[branch_3 d2d51d6] tao nhanh 3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (branch_3)
+$ git push origin branch_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 338 bytes | 338.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_3' on GitHub by visiting:
+remote:      https://github.com/khanhtxtp/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap/pull/new/branch_3
+remote:
+To https://github.com/khanhtxtp/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap.git
+ * [new branch]      branch_3 -> branch_3
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (branch_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git checkout -b "branch_4"
+Switched to a new branch 'branch_4'
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (branch_4)
+$ echo "cras ac mi nec nisi porta ultrices sed non ante" > text_branch_4.txt
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (branch_4)
+$ git add .
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (branch_4)
+$ git commit -m "tao nhanh 4"
+[branch_4 66da849] tao nhanh 4
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (branch_4)
+$ git push origin branch_4
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 328 bytes | 328.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/khanhtxtp/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap/pull/new/branch_4
+remote:
+To https://github.com/khanhtxtp/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap.git
+ * [new branch]      branch_4 -> branch_4
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git branch -d branch_4
+error: the branch 'branch_4' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_4'
+hint: Disable this message with "git config advice.forceDeleteBranch false"
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git branch -D branch_4
+Deleted branch branch_4 (was 66da849).
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git branch -l
+  brach_nhanh1
+  branch_2
+  branch_3
+* main
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ mkdir trong_khanh
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ cd trong_khanh
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap/trong_khanh (main)
+$ touch main_txt_1.txt
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap/trong_khanh (main)
+$ touch main_txt_2.txt
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap/trong_khanh (main)
+$ touch main_txt_3.txt
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap/trong_khanh (main)
+$ cd ..
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git add trong_khanh
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git commit -m "them file"
+[main a4c518a] them file
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 trong_khanh/main_txt_1.txt
+ create mode 100644 trong_khanh/main_txt_2.txt
+ create mode 100644 trong_khanh/main_txt_3.txt
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 337 bytes | 337.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/khanhtxtp/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap.git
+   dbc9314..a4c518a  main -> main
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git checkout 'branch_nhanh_1'
+error: pathspec 'branch_nhanh_1' did not match any file(s) known to git
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git checkout branch_nhanh_1
+error: pathspec 'branch_nhanh_1' did not match any file(s) known to git
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git checkout branch_nhanh1
+error: pathspec 'branch_nhanh1' did not match any file(s) known to git
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git checkout brach_nhanh1
+Switched to branch 'brach_nhanh1'
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (brach_nhanh1)
+$ git checkout -b banch5
+Switched to a new branch 'banch5'
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (banch5)
+$ ls
+README.md  file_brach_nhanh1.txt
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (banch5)
+$ echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros. Nullam malesuada vel dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae, porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis pellentesque et, pharetra id ligula. Vestibulum mattis sem id ligula aliquet viverra. Phasellus dignissim mollis leo, vitae tristique enim." > file_brach_nhanh1.txt
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (banch5)
+$ git push origin banch5
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'banch5' on GitHub by visiting:
+remote:      https://github.com/khanhtxtp/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap/pull/new/banch5
+remote:
+To https://github.com/khanhtxtp/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap.git
+ * [new branch]      banch5 -> banch5
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (banch5)
+$ git checkout brach_nhanh1
+M       file_brach_nhanh1.txt
+Switched to branch 'brach_nhanh1'
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (brach_nhanh1)
+$ git checkout banch5
+M       file_brach_nhanh1.txt
+Switched to branch 'banch5'
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (banch5)
+$ git add .
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (banch5)
+$ gitcommit -m "sua file"
+bash: gitcommit: command not found
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (banch5)
+$ echo "^[[200~Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros. Nullam malesuada vel dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae, porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis pellentesque et, pharetra id ligula. Vestibulum mattis sem id ligula aliquet viverra. Phasellus dignissim mollis leo, vitae tristique enim."
+Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros. Nullam malesuada vel dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae, porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis pellentesque et, pharetra id ligula. Vestibulum mattis sem id ligula aliquet viverra. Phasellus dignissim mollis leo, vitae tristique enim.
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (banch5)
+$ ls
+README.md  file_brach_nhanh1.txt
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (banch5)
+$ echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros. Nullam malesuada vel dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae, porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis pellentesque et, pharetra id ligula. Vestibulum mattis sem id ligula aliquet viverra. Phasellus dignissim mollis leo, vitae tristique enim." > file_brach_nhanh1.txt
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (banch5)
+$ git commit -m "file sua"
+[banch5 b7749f5] file sua
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (banch5)
+$ git push origin banch5
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 660 bytes | 660.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/khanhtxtp/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap.git
+   f05fa63..b7749f5  banch5 -> banch5
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (banch5)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git branch -D banch5
+Deleted branch banch5 (was b7749f5).
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git branch -l
+  brach_nhanh1
+  branch_2
+  branch_3
+* main
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git branch -D brach_nhanh1
+Deleted branch brach_nhanh1 (was f05fa63).
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git branch-D branch_2
+git: 'branch-D' is not a git command. See 'git --help'.
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git branch -D branch_2
+Deleted branch branch_2 (was 1d12c0f).
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git branch -D branch_3
+Deleted branch branch_3 (was d2d51d6).
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git fetch
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 9 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (9/9), 4.62 KiB | 249.00 KiB/s, done.
+From https://github.com/khanhtxtp/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap
+   a4c518a..249fce7  main         -> origin/main
+   f05fa63..2b631ec  brach_nhanh1 -> origin/brach_nhanh1
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git pull
+Updating a4c518a..249fce7
+Fast-forward
+ file_brach_nhanh1.txt | 1 +
+ text_branch_2.txt     | 1 +
+ text_branch_3.txt     | 1 +
+ text_branch_4.txt     | 1 +
+ 4 files changed, 4 insertions(+)
+ create mode 100644 file_brach_nhanh1.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git push origin
+Everything up-to-date
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git branch -l
+* main
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git add .
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git commit -m "xoa file"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$ git push origin
+Everything up-to-date
+
+Admin@DESKTOP-RKBLAEH MINGW64 /d/2/khanhtxtp-24174600029_nguyen_trong_khanh_bai_tap (main)
+$
